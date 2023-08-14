@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500&family=Timmana&display=swap');
+
+*{
+    font-family: 'Besley', serif;
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(./image/ph1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-top: 60px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 10px #fff;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container p{
+    color: whitesmoke;
+}
+h1{
+    margin-bottom: 40px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 50%;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+}
+#result{
+    margin-top: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}
